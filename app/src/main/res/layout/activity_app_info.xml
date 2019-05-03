@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/headerBkg"
+    android:fillViewport="true"
+    tools:context="com.olympics.olympicsandroid.view.activity.AppInfoActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginBottom="@dimen/dimen_applogo_padding"
+        android:layout_marginTop="@dimen/dimen_applogo_padding"
+        android:src="@drawable/infologo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/app_logo"
+        android:padding="5dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_settings_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:text="@string/time_settings"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_time_settings"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/appinfo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_settings_layout"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/reminder_settings_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/alarm_settings"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/title_activity_reminder_settings"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/reminder_settings_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/reminder_settings_view"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/contact_us_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/contactus"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/contact_us_string"
+            android:layout_below="@id/reminder_settings_divider"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/contact_us_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/contact_us_view"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/rate_app_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/contact_us_divider"
+            android:clickable="true"
+            android:drawableLeft="@drawable/rateus"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/rate_app_string"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/rate_app_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rate_app_view"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/share_app_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/rate_app_divider"
+            android:clickable="true"
+            android:drawableLeft="@drawable/share"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/share_app_string"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_about"
+        android:layout_below="@id/appinfo_layout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sportradar_info"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_about"
+        android:id="@+id/id_app_version"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>
