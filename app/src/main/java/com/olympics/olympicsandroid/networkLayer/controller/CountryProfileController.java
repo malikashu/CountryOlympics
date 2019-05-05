@@ -24,7 +24,7 @@ import com.olympics.olympicsandroid.utility.UtilityMethods;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by sarnab.poddar on 7/9/16.
+ * Created  on 7/9/16.
  */
 public class CountryProfileController {
 
