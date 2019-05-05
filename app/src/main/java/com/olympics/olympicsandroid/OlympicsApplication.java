@@ -7,9 +7,6 @@ import com.olympics.olympicsandroid.networkLayer.VolleySingleton;
 import com.olympics.olympicsandroid.networkLayer.cache.database.OlympicsPrefs;
 import com.olympics.olympicsandroid.utility.SportsUtility;
 
-/**
- * Created by sarnab.poddar on 7/8/16.
- */
 public class OlympicsApplication extends Application
 {
 

@@ -7,9 +7,7 @@ import com.olympics.olympicsandroid.model.CompetitorVOModel;
 import com.olympics.olympicsandroid.model.UnitVOModel;
 import com.olympics.olympicsandroid.model.presentationModel.EventReminder;
 
-/**
- * Created by sarnab.poddar on 7/16/16.
- */
+
 public class VOProcessor {
     private static VOProcessor ourInstance = new VOProcessor();
 

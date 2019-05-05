@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 public class SportsUtilityModel implements IResponseModel
 {

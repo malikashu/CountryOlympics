@@ -18,9 +18,7 @@ import com.olympics.olympicsandroid.utility.Logger;
 
 import java.util.TimeZone;
 
-/**
- * Created by sarnab.poddar on 7/24/16.
- */
+
 public class OlympicsLifeCyclecallbacks implements Application.ActivityLifecycleCallbacks {
 
 

@@ -9,9 +9,6 @@ import com.olympics.olympicsandroid.networkLayer.cache.database.iFace.DBTablesDe
 
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/16/16.
- */
 public class DBCompetitorRelationHelper extends DBOperationsHelper
 {
 

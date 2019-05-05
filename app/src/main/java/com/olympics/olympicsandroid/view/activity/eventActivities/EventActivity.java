@@ -43,9 +43,6 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/16/16.
- */
 public class EventActivity extends AppCompatActivity implements IUIListener {
     private String eventID;
     private String unitID;

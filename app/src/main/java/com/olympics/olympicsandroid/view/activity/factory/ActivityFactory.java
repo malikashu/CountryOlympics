@@ -16,9 +16,6 @@ import com.olympics.olympicsandroid.view.activity.OlympicsActivity;
 import com.olympics.olympicsandroid.view.activity.eventActivities.EventActivity;
 import com.olympics.olympicsandroid.view.fragment.ExpandableListAdapter;
 
-/**
- * Created by sarnab.poddar on 7/9/16.
- */
 public class ActivityFactory
 {
 

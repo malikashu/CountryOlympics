@@ -6,7 +6,7 @@ import com.android.volley.Request;
 import com.olympics.olympicsandroid.networkLayer.cache.database.OlympicsPrefs;
 
 /**
- * Created by sarnab.poddar on 7/9/16.
+ * Created   on 7/9/16.
  */
 public enum OlympicRequestQueries
 {

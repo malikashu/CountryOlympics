@@ -11,7 +11,7 @@ import com.olympics.olympicsandroid.model.presentationModel.DateSportsModel;
 import com.olympics.olympicsandroid.utility.DateUtils;
 
 /**
- * Created by sarnab.poddar on 7/7/16.
+ * Created   on 7/7/16.
  */
 public class DateEventAdapter extends FragmentStatePagerAdapter
 {

@@ -5,7 +5,7 @@ import android.util.Log;
 import com.olympics.olympicsandroid.BuildConfig;
 
 /**
- * Created by sarnab.poddar on 7/25/16.
+ * Created   on 7/25/16.
  */
 public class Logger
 {

@@ -9,7 +9,7 @@ import com.olympics.olympicsandroid.networkLayer.cache.database.iFace.DBOperatio
 import com.olympics.olympicsandroid.networkLayer.cache.database.iFace.DBTablesDef;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 public class DBUnitStatusHelper extends DBOperationsHelper
 {

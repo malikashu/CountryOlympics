@@ -1,8 +1,6 @@
 package com.olympics.olympicsandroid.model;
 
-/**
- * Created by sarnab.poddar on 7/16/16.
- */
+
 public class UnitVOModel
 {
 

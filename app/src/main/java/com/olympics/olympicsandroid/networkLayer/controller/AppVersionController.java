@@ -10,7 +10,7 @@ import com.olympics.olympicsandroid.networkLayer.RequestPolicy;
 import com.olympics.olympicsandroid.networkLayer.VolleySingleton;
 
 /**
- * Created by sarnab.poddar on 7/24/16.
+ * Created   on 7/24/16.
  */
 public class AppVersionController
 {

@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 import com.olympics.olympicsandroid.model.Organization;
 
 /**
- * Created by sarnab.poddar on 7/8/16.
+ * Created   on 7/8/16.
  */
 public class OlympicsPrefs
 {

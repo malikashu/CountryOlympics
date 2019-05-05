@@ -1,7 +1,7 @@
 package com.olympics.olympicsandroid.networkLayer;
 
 /**
- * Created by sarnab.poddar on 7/9/16.
+ * Created   on 7/9/16.
  */
 public class RequestPolicy
 {

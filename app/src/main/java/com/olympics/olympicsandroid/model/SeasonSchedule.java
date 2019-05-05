@@ -6,7 +6,7 @@ import org.simpleframework.xml.Root;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/9/16.
+ * Created   on 7/9/16.
  */
 @Root(name = "season-schedule",strict = false)
 public class SeasonSchedule

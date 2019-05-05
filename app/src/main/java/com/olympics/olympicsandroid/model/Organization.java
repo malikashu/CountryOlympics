@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/9/16.
+ * Created   on 7/9/16.
  */
 @Root(strict = false)
 public class Organization implements Serializable{

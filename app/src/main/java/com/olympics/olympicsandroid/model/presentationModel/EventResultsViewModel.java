@@ -7,9 +7,6 @@ import com.olympics.olympicsandroid.networkLayer.cache.database.OlympicsPrefs;
 
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/17/16.
- */
 public class EventResultsViewModel implements IResponseModel
 {
 

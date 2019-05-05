@@ -3,7 +3,7 @@ package com.olympics.olympicsandroid.model.presentationModel;
 import java.io.Serializable;
 
 /**
- * Created by sarnab.poddar on 7/10/16.
+ * Created   on 7/10/16.
  */
 public class EventUnitModel implements Serializable
 {

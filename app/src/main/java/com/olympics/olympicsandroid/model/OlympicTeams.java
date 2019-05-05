@@ -6,9 +6,6 @@ import org.simpleframework.xml.Root;
 
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/9/16.
- */
 @Root(name = "team",strict = false)
 public class OlympicTeams
 {

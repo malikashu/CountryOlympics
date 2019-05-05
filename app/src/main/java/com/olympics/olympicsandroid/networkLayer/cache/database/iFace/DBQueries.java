@@ -1,7 +1,7 @@
 package com.olympics.olympicsandroid.networkLayer.cache.database.iFace;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 public enum DBQueries {
     CREATE_TABLE_UNIT_STATUS("CREATE TABLE IF NOT EXISTS " + DBTablesDef.T_UNIT_RELATION

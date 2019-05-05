@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * This helper maps CountryProfileEvents and OlympicSchedule models into CountryEventUnitModel
  * <p/>
- * Created by sarnab.poddar on 7/10/16.
+ * Created   on 7/10/16.
  */
 public class CountryEventsHelper {
 

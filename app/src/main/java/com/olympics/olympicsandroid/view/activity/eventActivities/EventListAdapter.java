@@ -30,7 +30,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 public class EventListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

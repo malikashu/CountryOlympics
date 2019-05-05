@@ -1,8 +1,5 @@
 package com.olympics.olympicsandroid.model;
 
-/**
- * Created by sarnab.poddar on 7/24/16.
- */
 public class CompetitorVOModel extends Object
 {
     private String competitorID;

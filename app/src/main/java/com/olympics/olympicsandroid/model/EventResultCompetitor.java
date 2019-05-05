@@ -7,7 +7,7 @@ import org.simpleframework.xml.Root;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 @Root(name = "competitor",strict = false)
 public class EventResultCompetitor

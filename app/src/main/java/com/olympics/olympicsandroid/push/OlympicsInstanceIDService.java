@@ -5,9 +5,7 @@ import android.util.Log;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 
-/**
- * Created by sarnab.poddar on 8/3/16.
- */
+
 public class OlympicsInstanceIDService extends FirebaseInstanceIdService {
 
     private static final String TAG = "MyFirebaseIIDService";

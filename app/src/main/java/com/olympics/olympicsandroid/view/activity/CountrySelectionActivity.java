@@ -41,9 +41,6 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/7/16.
- */
 public class CountrySelectionActivity extends AppCompatActivity implements IUIListener, SearchView.OnQueryTextListener
 {
 

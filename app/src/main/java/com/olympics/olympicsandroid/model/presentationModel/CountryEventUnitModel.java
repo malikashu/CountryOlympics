@@ -8,9 +8,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-/**
- * Created by sarnab.poddar on 7/10/16.
- */
+
 public class CountryEventUnitModel implements IResponseModel, Serializable {
 
     private String countryName;

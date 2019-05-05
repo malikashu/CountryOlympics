@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/17/16.
+ * Created   on 7/17/16.
  */
 public class EventResultsHelper {
 

@@ -20,7 +20,7 @@ import com.olympics.olympicsandroid.networkLayer.parse.IParseListener;
 import com.olympics.olympicsandroid.networkLayer.parse.ParseTask;
 
 /**
- * Created by sarnab.poddar on 7/14/16.
+ * Created   on 7/14/16.
  */
 public class SportsUtility {
 

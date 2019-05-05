@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by sarnab.poddar on 7/7/16.
+ * Created   on 7/7/16.
  */
 public class EventListFragment extends Fragment
 {

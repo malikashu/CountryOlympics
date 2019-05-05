@@ -7,9 +7,7 @@ import org.simpleframework.xml.Root;
 
 import java.util.List;
 
-/**
- * Created by sarnab.poddar on 7/9/16.
- */
+
 @Root(name = "unit",strict = false)
 public class OlympicUnit
 {

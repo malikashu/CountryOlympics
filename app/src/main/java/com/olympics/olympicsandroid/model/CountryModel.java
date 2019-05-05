@@ -7,7 +7,7 @@ import org.simpleframework.xml.Root;
 import java.util.List;
 
 /**
- * Created by sarnab.poddar on 7/7/16.
+ * Created   on 7/7/16.
  */
 
 @Root(name="olympics")

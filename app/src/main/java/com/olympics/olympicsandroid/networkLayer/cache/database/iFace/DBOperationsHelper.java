@@ -5,7 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 /**
- * Created by sarnab.poddar on 7/16/16.
+ * Created   on 7/16/16.
  */
 public class DBOperationsHelper {
     private static final String TAG = DBOperationsHelper.class.getSimpleName();

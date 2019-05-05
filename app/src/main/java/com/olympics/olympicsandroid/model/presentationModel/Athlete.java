@@ -4,9 +4,7 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by sarnab.poddar on 7/10/16.
- */
+
 public class Athlete implements Serializable, Comparable
 {
     private String athleteName;
